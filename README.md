@@ -1,4 +1,4 @@
-### Cara Install dan Jalankan Aplikasi React Native di Nox Player (Windows)
+### Cara Install React Native
 
 #### Install Depecencies
 1. Install **[NodeJS LTS](https://nodejs.org/en/download/)** terbaru.
