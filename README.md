@@ -20,7 +20,7 @@
 - Jalankan perintah berikut di CMD **`npm i -g react-native-cli`** untuk menginstall React Native CLI pada komputer anda
 
 #### Memulai project baru React Native
-1. Buka **CMD**, lalu arahkan ke folder untuk menyimpan folder anda.
+1. Buka **CMD**, lalu arahkan ke folder yang digunakan untuk menyimpan project anda.
 2. Jalankan perintah pada CMD `react-native init my-project`.
   ***Note:** "my-project" pada skrip adalah untuk penamaan project anda*
 3. Setelah itu `cd my-project` untuk masuk ke folder project anda
