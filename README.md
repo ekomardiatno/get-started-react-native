@@ -1,6 +1,7 @@
 ### Cara Install dan Jalankan Aplikasi React Native di Nox Player (Windows)
+
 #### Install Depecencies
-1. Install **[NodeJS LTS](https://nodejs.org/en/download/)** terbaru
+1. Install **[NodeJS LTS](https://nodejs.org/en/download/)** terbaru. <enter>
   ***Note:** Jalankan perintah `node -v` di CMD untuk mengetahui nodejs telah terinstall di komputer anda.*
 2. Install **Chocolatey**
     - Buka **CMD** sebagai administrator
@@ -33,7 +34,7 @@
 6. Terakhir klik **OK**
 
 #### Install packages yang diperlukan di Android SDK Manager
-- Buka aplikasi **SDK Manager** pada folder yang sama dengan path untuk konfigurasi ANDROID_HOME sebelumnya atau cari melalui **Start Menu**
+- Buka aplikasi **SDK Manager** di folder yang sama dengan path untuk konfigurasi ANDROID_HOME sebelumnya atau cari melalui **Start Menu**
 - Pada list **Tools** install/update package berikut:
   - Android SDK Tools
   - Android SDK Platform-tools
@@ -41,8 +42,7 @@
     *Untuk build-tools pilih saja versi package yang sama dengan platform-tools.*
 - Pada list **Extras** (list paling bawah) install/update package berikut:
   - Google USB Driver
-- Sedangkan untuk install Android API, install sesuai kebutuhan. Misalnya ingin menginstall Android 9/Pie. Pilih dan buka list **Android 9 (API 28)** kemudian centang **SDK Platform**.
-  ***Note:** Centang package **Google APIs** jika tersedia dalam list*
+- Sedangkan untuk install Android API, install sesuai kebutuhan. Misalnya ingin menginstall Android 9/Pie. Centang semua package dalam list **Android 9 (API 28)**.
   ***Saran:** Install Android API sesuai perangkat atau emulator yang anda miliki.*
 - Kemudian tekan tombol **Install** di samping kanan bawah
 - Terakhir pada jendela **Choose Packages to Install** klik **Accept License** lalu tekan Install
@@ -55,6 +55,10 @@
 3. Jalankan perintah pada CMD `react-native start` untuk mengaktifkan server react native.
 4. `react-native run-android` untuk menjalankan aplikasi di perangkat Android atau Emulator Android
 
+#### Membuat emulator
+1. Buka aplikasi **AVD Manager** di folder yang sama dengan aplikasi **SDK Manager**
+2. 
+
 #### Konfigurasi Nox App Player
 1. Buka aplikasi **Nox App Player**
 2. Tekan tombol Pengaturan berlogo *gear* pada bar diatas aplikasi.
@@ -64,3 +68,4 @@
 6. Buka menu **About tablet** di menu paling bawah.
 7. Kemudian tekan 7x pada **Build number** untuk mengaktifkan mode Developer.
 8. Setelah itu kembali, buka menu **Developer Options** dan aktifkan **USB Debugging**
+
