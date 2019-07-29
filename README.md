@@ -1,7 +1,7 @@
 ### Cara Install dan Jalankan Aplikasi React Native di Nox Player (Windows)
 
 #### Install Depecencies
-1. Install **[NodeJS LTS](https://nodejs.org/en/download/)** terbaru. <enter>
+1. Install **[NodeJS LTS](https://nodejs.org/en/download/)** terbaru.
   ***Note:** Jalankan perintah `node -v` di CMD untuk mengetahui nodejs telah terinstall di komputer anda.*
 2. Install **Chocolatey**
     - Buka **CMD** sebagai administrator
@@ -15,7 +15,7 @@
       ```shell
       choco install -y python2 jdk8
       ```
-4. Install **Android SDK Manager**
+4. Install **[Android SDK Manager](https://drive.google.com/file/d/1sH8b0X10TeH2nn2Njb5tTmPAX_NEm65x/view?usp=sharing)**
     - Pastikan pilih **Install just for user**
     - Jangan lupa salin path di bagian **Destination Folder** pada halaman **Choose Install Location** untuk **Konfigurasi ANDROID_HOME**
 
@@ -38,8 +38,8 @@
 - Pada list **Tools** install/update package berikut:
   - Android SDK Tools
   - Android SDK Platform-tools
-  - Android SDK Build-tools
-    *Untuk build-tools pilih saja versi package yang sama dengan platform-tools.*
+  - Android SDK Build-tools.
+    *Untuk build-tools install semua versi atau versi yang sama dengan **buildToolsVersion** yang digunakan di project react native pada "./android/build.gradle".*
 - Pada list **Extras** (list paling bawah) install/update package berikut:
   - Google USB Driver
 - Sedangkan untuk install Android API, install sesuai kebutuhan. Misalnya ingin menginstall Android 9/Pie. Centang semua package dalam list **Android 9 (API 28)**.
@@ -47,25 +47,16 @@
 - Kemudian tekan tombol **Install** di samping kanan bawah
 - Terakhir pada jendela **Choose Packages to Install** klik **Accept License** lalu tekan Install
 
+#### Konfigurasi emulator
+1. Buka aplikasi **AVD Manager** di folder yang sama dengan aplikasi **SDK Manager**
+2. Tekan tombol **Create...** pada tab Android Virtual Device
+3. Setelah berhasil membuat AVD tekan **Start...** untuk menjalankan emulator.
+
 #### Memulai project baru React Native
 1. Buka **CMD**, lalu arahkan ke folder untuk menyimpan folder anda.
-2. Jalankan perintah pada CMD `react-native init my-project`
+2. Jalankan perintah pada CMD `react-native init my-project`.
   ***Note:** "my-project" pada skrip adalah untuk penamaan project anda*
 3. Setelah itu `cd my-project` untuk masuk ke folder project anda
 3. Jalankan perintah pada CMD `react-native start` untuk mengaktifkan server react native.
 4. `react-native run-android` untuk menjalankan aplikasi di perangkat Android atau Emulator Android
-
-#### Membuat emulator
-1. Buka aplikasi **AVD Manager** di folder yang sama dengan aplikasi **SDK Manager**
-2. 
-
-#### Konfigurasi Nox App Player
-1. Buka aplikasi **Nox App Player**
-2. Tekan tombol Pengaturan berlogo *gear* pada bar diatas aplikasi.
-3. Pilih tab **Advanced settings**, lalu pada **Resolustion settings** ganti ke **Mobile phone**, kemudian tekan **Save settings**.
-4. Terakhir restart Nox App Player
-5. Setelah kembali ke aplikasi Nox App Player, buka aplikasi **Settings**.
-6. Buka menu **About tablet** di menu paling bawah.
-7. Kemudian tekan 7x pada **Build number** untuk mengaktifkan mode Developer.
-8. Setelah itu kembali, buka menu **Developer Options** dan aktifkan **USB Debugging**
 
