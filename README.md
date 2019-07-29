@@ -19,6 +19,13 @@
 #### Install React Native CLI
 - Jalankan perintah berikut di CMD **`npm i -g react-native-cli`** untuk menginstall React Native CLI pada komputer anda
 
+#### Menjalan project di Perangkat Android
+1. Buka aplikasi **Settings**
+2. Lalu pilih menu **About phone** dan Tekan 7 kali **Build number**
+3. Setelah itu akan muncul menu baru bernama **Developer options**
+4. Kemudian aktifkan **USB debugging** di Developer options
+5. Selanjutnya cukup hubungkan android dan PC menggunakan kabel USB saat ingin menjalankan project react native.
+
 #### Memulai project baru React Native
 1. Buka **CMD**, lalu arahkan ke folder yang digunakan untuk menyimpan project anda.
 2. Jalankan perintah pada CMD `react-native init my-project`.
@@ -26,4 +33,3 @@
 3. Setelah itu `cd my-project` untuk masuk ke folder project anda
 3. Jalankan perintah pada CMD `react-native start` untuk mengaktifkan server react native.
 4. `react-native run-android` untuk menjalankan aplikasi di perangkat Android atau Emulator Android
-
